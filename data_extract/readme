@@ -1,0 +1,11 @@
+The code in this directory is used to extract spectral data from X-Shooter and plots the data.
+
+
+spec_extract.py
+---------------
+This code takes in the files downloaded from the ESO archive, and then splits it up for ease of use. 
+It will first split the data up based on whether it is 'SCIENCE.SPECTRUM' (containing the wavelength
+and flux data) or 'ANCILLARY.2DSPECTRUM' (containing flux measurement errors and quality flags). The
+data is then split up based on object name. For 'SCIENCE.SPECTRUM', the data is further refined based
+on if the data is 'UVB', 'VIS' or 'NIR'. The code will also plot the spectrum of each exposure as 
+interactive .html files.

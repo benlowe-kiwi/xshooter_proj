@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+			"name": "xshooter_proj",
+			"path": ".."
+		},
+		{
+			"path": "../../../../data/misfit/benlowe/xshooter"
+		}
+	],
+	"settings": {}
+}
